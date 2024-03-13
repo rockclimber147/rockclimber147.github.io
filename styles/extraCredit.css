@@ -1,0 +1,52 @@
+*{
+    font-family: monospace;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+th {
+    justify-content: center;
+}
+
+
+.constant, .binary_operator, .unary_operator {
+    text-align:center;
+    display:inline-block;
+    border: 1px solid black;
+    font-size: 25px;
+    line-height: 25px;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    margin:5px;
+}
+
+.table_container {
+    position: relative;
+}
+
+.binary_operator {
+    background-color: rgb(60, 255, 0);
+}
+
+.unary_operator{
+    background-color: rgb(247, 244, 68);
+}
+
+.constant {
+    background-color: rgb(0, 162, 255);
+}
+
+#treeContainer, #treePartsContainer {
+    display: inline-block;
+    justify-self: center;
+    justify-content: center;
+}
+
+svg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}

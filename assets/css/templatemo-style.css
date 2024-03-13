@@ -327,6 +327,11 @@ html {
     letter-spacing: 0.5px;
 }
 
+.rmtry {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 /* Buttons */
 

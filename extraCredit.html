@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra Credit</title>
+    <link rel="stylesheet" href="/styles/global_styles.css">
+    <link rel="stylesheet" href="/styles/extraCredit.css">
+</head>
+
+<body>
+    <div>
+        <label for="inputExpression">Enter a boolean expression where<br>
+            and = *<br>
+            or = +<br>
+            not = !<br>
+            all variable names must be exactly one character long</label>
+    </div>
+    <input id="inputExpression" type="text">
+    <button id="inputExpressionButton">Make AST!</button>
+    <main>
+        
+        <p>MAIN TREE</p>
+        <div class="table_container" id="treeContainer"></div>
+        <p>SUB TREES</p>
+        <div id="treePartsContainer"></div>
+    </main>
+
+    <script type="module" src='./scripts/extraCredit.js'></script>
+
+
+</body>
+
+</html>
+
