@@ -5,6 +5,7 @@ document.getElementById('inputExpressionButton').addEventListener('click', ()=>{
     console.log(expression)
     let parser = new Parser(expression);
     try {
+        parser.advance();
         parser.constructAST()
         addSVG(parser.tree, 'treeContainer', 'Main')
     } catch (err) {

@@ -344,8 +344,6 @@ class Parser {
         this.debug = debug;
         // load tokenizer
         this.tokenizer = new Tokenizer(expressionString, debug);
-        // load first token
-        this.advance()
     }
 
     /**
